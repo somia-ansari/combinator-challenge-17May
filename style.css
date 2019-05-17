@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.icon i {
+    color: #f9ff00;
+    margin:0 0.5em;
+}
+i {
+    color: #212121;
+    font-size: 2em;
+    margin: 0.1em;
+}
+article{
+    display: flex;
+}
+ span:hover i{
+    color: #e64861;
+}
+span:hover~span i{
+    color: white;
+}
+span:hover+span i {
+    color: #f08eb1;
+}
+
